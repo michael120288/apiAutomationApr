@@ -51,6 +51,7 @@ describe("USER SIGNUP AND LOGIN", () => {
           return deleteFunction(cookie);
         })
         .then((deleteRes) => {
+            
           expect(deleteRes.statusCode).toBe(200);
           expect(deleteRes.body.message).toBe("User deleted successfully");
           return login(user);
