@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.847">
+  <testsuite name="CREATE TOUR" errors="0" failures="0" skipped="0" timestamp="2025-05-09T03:17:32" time="1.697" tests="1">
+    <testcase classname="CREATE TOUR create tour" name="CREATE TOUR create tour" time="0.478">
+    </testcase>
+  </testsuite>
+</testsuites>
