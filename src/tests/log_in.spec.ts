@@ -33,7 +33,7 @@ describe("USER SIGNUP AND LOGIN", () => {
         throw error; // Rethrow the error to fail the test
       }
     });
-    it.only("should signup , login and delete the user using .then()", () => {
+    it("should signup , login and delete the user using .then()", () => {
       return signUp(user)
         .then((res) => {
           console.log(res.body);
@@ -61,7 +61,7 @@ describe("USER SIGNUP AND LOGIN", () => {
           expect(loginAfterDelete.body.message).toBe("Incorrect email or password");
         });
     });
-    it.only("should signup , login and delete the user using .end(done callback)", (done) => {
+    it("should signup , login and delete the user using .end(done callback)", (done) => {
       signUp2(user).end((err, res) => {
         if (err) return done(err);
         console.log(res.body);
