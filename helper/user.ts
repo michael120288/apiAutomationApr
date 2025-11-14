@@ -47,7 +47,7 @@ export function signUp(user: User): Promise<any> {
 }
 
 export function signUp2(user) {
-  return request.post("/users/signup").send(user)
+  return request.post("/users/signup").send(user);
 }
 
 export function login(user: User): Promise<any> {
@@ -63,7 +63,7 @@ export function login(user: User): Promise<any> {
 }
 
 export function login2(user: User) {
-  return request.post("/users/login").send(user).expect(200);
+  return request.post("/users/login").send(user);
 }
 
 export function deleteFunction(cookie: string): Promise<any> {

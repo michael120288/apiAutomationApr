@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="6" failures="0" errors="0" time="3.16">
-  <testsuite name="POSTS" errors="0" failures="0" skipped="0" timestamp="2025-05-16T02:14:21" time="3" tests="6">
-    <testcase classname="POSTS get request" name="POSTS get request" time="0.411">
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="4.403">
+  <testsuite name="USER SIGNUP AND LOGIN" errors="0" failures="0" skipped="0" timestamp="2025-10-31T01:38:31" time="4.276" tests="3">
+    <testcase classname="USER SIGNUP AND LOGIN POSITIVE TESTING should signup , login and delete the user" name="USER SIGNUP AND LOGIN POSITIVE TESTING should signup , login and delete the user" time="0.968">
     </testcase>
-    <testcase classname="POSTS POST request" name="POSTS POST request" time="0.116">
+    <testcase classname="USER SIGNUP AND LOGIN POSITIVE TESTING should signup , login and delete the user using .then()" name="USER SIGNUP AND LOGIN POSITIVE TESTING should signup , login and delete the user using .then()" time="1.034">
     </testcase>
-    <testcase classname="POSTS PATCH request with title version 1" name="POSTS PATCH request with title version 1" time="0.201">
-    </testcase>
-    <testcase classname="POSTS PATCH request with title version 2" name="POSTS PATCH request with title version 2" time="0.21">
-    </testcase>
-    <testcase classname="POSTS PATCH request with title version 3" name="POSTS PATCH request with title version 3" time="0.126">
-    </testcase>
-    <testcase classname="POSTS DELETE request" name="POSTS DELETE request" time="0.116">
+    <testcase classname="USER SIGNUP AND LOGIN POSITIVE TESTING should signup , login and delete the user using .end(done callback)" name="USER SIGNUP AND LOGIN POSITIVE TESTING should signup , login and delete the user using .end(done callback)" time="0.82">
     </testcase>
   </testsuite>
 </testsuites>
